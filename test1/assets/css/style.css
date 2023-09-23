@@ -1,0 +1,45 @@
+form {
+
+display: flex;
+flex-direction: column;
+width: 30%;
+justify-content: center;
+align-items: center;
+text-align: center;
+padding: 20px;
+box-shadow: 1px 1px 3px 1px rgb(219, 215, 215);
+position: absolute;
+left: 50%;
+top: 50%;
+transform: translate(-50%,-49%);
+color: black;
+}
+
+form>input{
+text-align: center;
+width: 250px;
+height: 30px;
+margin-bottom: 5px;
+}
+
+form>label{
+margin: 10px;
+font-size: 20px;
+font-weight: bold;
+}
+
+form>input[type="submit"]{
+margin-top: 5px;
+width: 200px;
+height: 35px;
+border: 0px solid transparent;
+border-radius: 10px;
+background-color: black;
+color: #fff;
+transition: 1s;
+}
+
+form>input[type="submit"]:hover{
+background-color: grey;
+}
+
